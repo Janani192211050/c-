@@ -1,0 +1,26 @@
+c code:
+#include <stdio.h> 
+int main(void) 
+{ 
+	const int j = 20; 
+	int *ptr = &j;
+	printf("*ptr: %d\n", *ptr); 
+	return 0;}
+
+
+
+
+
+
+
+
+ans c++ code
+using namespace std;
+#include<iostream>
+int main(void) 
+{ 
+	int j = 20; 
+	int *ptr = &j;
+	cout<<(*ptr); 
+	return 0; 
+}
