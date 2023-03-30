@@ -1,0 +1,10 @@
+#include<iostream>
+intmain()
+{
+cout<< "\"geeksforgeeks\"";
+}	
+
+
+
+ans:
+we should add using namespace std or include std:: befor cout.
