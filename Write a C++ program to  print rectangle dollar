@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int i, j, r, c;
+	char ch;
+	
+	cout << "\n no.of Rows    =  ";
+	cin >> r;
+	
+	cout << "\nno.of columns =  ";
+	cin >> c;
+	
+	cout << "symbol=  ";
+	cin >> ch;	
+		
+	cout << "\n-----Rectangle Pattern-----\n";
+	for(i = 0; i < r; i++)
+    {
+        for(j = 0; j < c; j++)
+		{
+           cout << ch;
+        }
+        cout << "\n";
+	}
+ 	return 0;
+}
